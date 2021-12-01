@@ -1,11 +1,11 @@
 data = open('d1.txt', 'r').read().split('\n')
-rest = increase = ingroup = window = group = oldgroup = 0
+sub = increase = ingroup = window = group = oldgroup = 0
 #print(data)
 for x in range(len(data)-1):
     #print(data[x])
-    rest = int(data[x + 1]) - int(data[x])
+    sub = int(data[x + 1]) - int(data[x])
     #print(rest)
-    if rest > 0:
+    if sub > 0:
         increase+=1
 print("Day 1 part 1: " + str(increase))
 
