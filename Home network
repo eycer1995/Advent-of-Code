@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T19:50:59.739Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="u9gkzSElgGKXj_oS-wnD" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-15T20:05:54.338Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="1ncIbvIPFiglw4qYiqfE" version="16.2.7" type="github">
   <diagram id="5Tn8Xd_a_BiMr3nm4nV5" name="Page-1">
     <mxGraphModel dx="1831" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -193,23 +193,23 @@
         <mxCell id="-vMTNOXAK0um_4kbF-k_-89" value="Pihole&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontColor=none;" vertex="1" parent="QAmMPTGhPl2VQHVqv-GW-1">
           <mxGeometry x="-162.25" y="480" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-vMTNOXAK0um_4kbF-k_-90" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;LAN&amp;nbsp;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;WAN" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=9;fontColor=none;align=left;" vertex="1" parent="QAmMPTGhPl2VQHVqv-GW-1">
+        <mxCell id="-vMTNOXAK0um_4kbF-k_-90" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;LAN&amp;nbsp;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;WLAN" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=9;fontColor=none;align=left;" vertex="1" parent="QAmMPTGhPl2VQHVqv-GW-1">
           <mxGeometry x="610" y="428.63" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-vMTNOXAK0um_4kbF-k_-91" value="" style="endArrow=none;html=1;rounded=0;fontSize=9;fontColor=none;align=left;" edge="1" parent="QAmMPTGhPl2VQHVqv-GW-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="650" y="447.89" as="sourcePoint" />
-            <mxPoint x="700" y="447.89" as="targetPoint" />
+            <mxPoint x="657.54" y="447.65999999999997" as="sourcePoint" />
+            <mxPoint x="707.54" y="447.65999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-vMTNOXAK0um_4kbF-k_-92" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=9;fontColor=none;" edge="1" parent="QAmMPTGhPl2VQHVqv-GW-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="650" y="469.39" as="sourcePoint" />
-            <mxPoint x="700" y="469.13" as="targetPoint" />
+            <mxPoint x="657" y="469.26" as="sourcePoint" />
+            <mxPoint x="707" y="469" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-vMTNOXAK0um_4kbF-k_-93" value="WAN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontColor=none;" vertex="1" parent="QAmMPTGhPl2VQHVqv-GW-1">
-          <mxGeometry x="639" y="170" width="40" height="20" as="geometry" />
+        <mxCell id="-vMTNOXAK0um_4kbF-k_-93" value="WLAN&lt;br&gt;255.255.255.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontColor=none;" vertex="1" parent="QAmMPTGhPl2VQHVqv-GW-1">
+          <mxGeometry x="690" y="160" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
