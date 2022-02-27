@@ -5,18 +5,18 @@ import time
 def main():
     data = "yzbqklnj"
     find = 0
-    leading = False
-    md5_hash = md5_input = five_zeroes = ""
-    while leading is False:
+    part1 = part2 = False
+    md5_hash = md5_input = ""
+    while (part1 and part2) is False:
         md5_input = data + str(find)
         md5_hash = hashlib.md5(md5_input.encode('utf-8')).hexdigest()
-        print(md5_hash)
+        # print(md5_hash)
         # print(find)
-        if md5_hash[0] == "0" and md5_hash[1] == "0" and md5_hash[2] == "0" and md5_hash[3] == "0" and md5_hash[4] == "0" and five_zeroes == "":
-            five_zeroes = find
-            print("Day 4 part 1 is: " + str(five_zeroes))
-        if md5_hash[0] == "0" and md5_hash[1] == "0" and md5_hash[2] == "0" and md5_hash[3] == "0" and md5_hash[4] == "0" and md5_hash[5] == "0":
-            leading = True
+        if md5_hash.startswith("00000") and part1 is False:
+            part1 = True
+            print("Day 4 part 1 is: " + str(find))
+        if md5_hash.startswith("000000") and part2 is False:
+            part2 = True
             print("Day 4 part 2 is: " + str(find))
         find += 1
 
