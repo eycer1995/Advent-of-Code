@@ -19,13 +19,13 @@ def get_data():
 
 def build(wire_a, wire_b):
     wires = []
-    if 
+    for i in range(len(wires)):
 
 
 
 def proccess_data(operation):
     if "AND" in operation:
-        
+        build(operation[0], operation[2])
 
 
 def main():
