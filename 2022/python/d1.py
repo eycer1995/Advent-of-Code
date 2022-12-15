@@ -14,4 +14,9 @@ for i in range(number_of_elves):
     calories.append(sum)    
 
 calories.sort()
+
+top_three = calories[-1] + calories[-2] + calories[-3]
+
 print("The elf with the biggest amount of calories has:  " + str(calories[-1]))
+
+print("The total calories for top three is:  " + str(top_three))
